@@ -15,8 +15,8 @@ driver.implicitly_wait(20)
 driver.maximize_window()
 driver.get('https://google.com')
  
-#create a search array and extend it to include three words
-search = []; search.extend( ["Superman", "Batman", "Ironman"] )
+#create a search list and extend it to include three words
+search = []; search.extend(["Superman", "Batman", "Ironman"])
  
 #randomize the word used in the Google search
 random.shuffle(search)
